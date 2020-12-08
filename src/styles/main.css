@@ -1,0 +1,103 @@
+body {
+  /* background-color: #B9D6F2; */
+  background-color: #d1e4f6;
+}
+
+/* Main*/
+.main_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.main_title {
+  color: black;
+  text-align: center;
+}
+/* NavBar*/
+
+.nav_bar_container {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #0353a4;
+}
+.nav_item {
+  color: white;
+  text-decoration: none;
+}
+.searchbar_container {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.header {
+  margin-left: 1rem;
+}
+
+/* SearchBar*/
+.searchbar_inner_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.error_message {
+  color: red;
+  margin-left: 1rem;
+}
+.title_label {
+  margin-right: 0.5rem;
+}
+.search-button {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* All Movies*/
+.allMovies_Main_Container {
+}
+.movie_search_results_container {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.movie_container {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.movie_item {
+}
+.movie_link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Single Movie*/
+
+.single_movie_container {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.single_movie_label {
+  font-weight: bold;
+}
+
+/* Voting*/
+.voting-main-container button {
+  cursor: pointer;
+}
+.thumbs_up {
+  margin-right: 0.5rem;
+}
+
+/* */

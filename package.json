@@ -1,0 +1,42 @@
+{
+  "name": "year_one_project",
+  "version": "1.0.0",
+  "description": "An small web application for viewing movie details and voting for your favorites.",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "NODE_ENV='development' react-scripts start",
+    "start": "NODE_ENV='production' npm run build & NODE_ENV='production' npm run start-server",
+    "start-server": "nodemon server -e html,js,scss --ignore public --ignore src",
+    "build": "react-scripts build && mv build ./server/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
+}
